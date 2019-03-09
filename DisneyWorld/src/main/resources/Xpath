@@ -1,0 +1,21 @@
+* driver.findElement(By.xpath("//a[@class='signIn']")).click();
+		 * driver.findElement(By.xpath("//input[@id='loginPageUsername']")).sendKeys(
+		 * "login_practice@yahoo.com");
+		 * driver.findElement(By.xpath("//input[@id='loginPagePassword']")).sendKeys(
+		 * "Disney007");
+		 * driver.findElement(By.xpath("//button[@id='loginPageSubmitButton']")).click()
+		 * ;
+		 */ 
+	driver.findElement(By.xpath("//div[@id='resortContainer']")).click();
+	driver.findElement(By.xpath("//div[@id='tripDatesContainer']")).click();
+	driver.findElement(By.xpath("//button[@id='4_10_2019']")).click();
+	driver.findElement(By.xpath("//button[@id='5_10_2019']")).click();
+	driver.findElement(By.xpath("//div[@id='tripDatesContainer']")).click();
+	driver.findElement(By.xpath("//div[@id='resortContainer']")).click();
+	driver.findElement(By.xpath("(//span[@class='option-text  ng-binding'])[7]")).click();
+	driver.findElement(By.xpath("(//label[@class='btn-checkbox-label'])[2]")).click();
+	driver.findElement(By.xpath("(//button[@class='button'])[1]")).click();
+	driver.findElement(By.xpath("(//button[@class='button'])[4]")).click();
+	driver.findElement(By.xpath("(//button[@class='btn btn-default dropdown-toggle'])[1]")).click();
+	driver.findElement(By.xpath("//a[@aria-label='16']")).click();
+	driver.findElement(By.xpath("//button[@id='findPricesButton']")).click();

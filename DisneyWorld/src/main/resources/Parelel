@@ -1,0 +1,20 @@
+<suite name="Disney" parallel="tests">
+
+
+
+<test name = "MicrosofTestCases">
+  <parameter name="browser" value="Microsoft"/>
+    <classes>
+      
+      <class name="com.baseclass.Besetests"/>
+      
+    </classes>
+  </test> 
+<test name = "ChromeTestCases">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      
+      <class name="com.baseclass.Besetests"/>
+      
+    </classes>
+  </test> 
